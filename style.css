@@ -1,0 +1,255 @@
+body{
+    background-color: #eee;  
+    
+}
+
+.topo{
+    background-color: #CF2B2B;
+    width: 100%;
+    height: 92px;
+    margin: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.164);
+
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    
+}
+
+.marca{
+    color: #fff;
+    font-family: "Righteous", sans-serif;
+    font-size: 44px;
+    padding-top: 8px;
+    padding-left: 21px;
+}
+
+.t1{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 21px;
+
+}
+
+.conteudo{
+    padding-top: 123px;
+    padding-left: 25px;
+    padding-bottom: 123px;  
+}
+
+.t2, .t3, .t4 {
+    color: #333;
+    font-family: "Righteous", sans-serif;
+    font-size: 26px;
+    margin-bottom: 25px;
+
+
+}
+
+.t3, .t4 {
+    margin-top: 20px;
+}
+
+.prato-principal, .bebida, .sobremesa {
+
+    
+    display: flex;
+    overflow-x: scroll;
+    height: 240px;
+    align-items: center;
+    
+
+
+}
+
+.prato1, .prato2, .prato3, .bebidas1, .bebidas2, .bebidas3, .sobremesa1, .sobremesa2, .sobremesa3 {
+    border: 5px solid #fff ;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    background-color:#fff;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.foto{
+    width: 144px;
+    height: 87px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 13px;
+
+}
+
+/* Nomes do prato */
+
+.nomePrato, .nomeBebida, .nomeSobremesa{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+    margin: 9px;
+
+
+
+}
+
+.descPrato, .DescBebida, .descSobremesa {
+    font-family: "Roboto", sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    color: #a6a6a6;
+    margin-bottom: 5px;
+    margin: 9px;
+
+}
+
+.precPrato, .precBebida, .precSobremesa{
+    font-family: "Roboto", sans-serif;  
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 7px;
+    margin-left: 5px;
+
+}
+
+
+.finalizar-pedido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.botaoFinal{
+    width: 340px;
+    height: 61px;
+    border-radius: 50px;
+    border: #cbcbcb;
+    background-color: #cbcbcb;
+
+   
+    
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.fimPedido{
+    background-color: rgba(255, 255, 255, 0.774);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fechPedido{
+    background-color: #32B72F;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+   
+    
+    
+
+}
+
+.telaVerde{
+
+    background-color:#50D074;
+    width: 377px;
+    height: 353px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    
+
+
+}
+
+.textoFinal{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.textoFinal2{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 6px;
+
+
+}
+
+.tudoCerto{
+    width: 340px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #fff;
+    margin-left: 65px;
+    margin-top: 50px;
+    padding: 8px;
+    text-decoration: none;
+
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    color: #50D074;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.cancela{
+    
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 20px;
+   
+    width: 329px;
+    height: 40px;
+    background-color: #50D074;
+    border:#50D074;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    
+
+    text-decoration: none;
+}
+
+.escondido{
+    display: none;
+}
+
+.selecionado{
+    border: 5px solid #32B72F ;
+}

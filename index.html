@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>DrivenEats</title>
+
+
+</head>
+<body>
+
+    
+    
+    <div class="topo">
+        <h1 class="marca">DrivenEats</h1>
+        <p class="t1">Sua comida em 6 minutos</p>
+    </div>
+
+    <div class="conteudo">
+
+        <p class="t2">Primeiro, seu prato</p>
+
+
+        <div class="prato-principal">
+
+            
+
+            <div class="prato1" onclick="selecionarPrato(this); continuar() ">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_calabresa.png" alt="" class="foto">
+
+
+                
+                    <p class="nomePrato">Prato de calabresa</p>
+                    <p class="descPrato">Arroz, feijão,calabresa e batata frita</p>
+                    <p class="precPrato">14.90</p>
+                
+
+            </div>
+
+            
+            
+            <div class="prato2"onclick="selecionarPrato(this); continuar() " >
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_carne.jpg" alt="" class="foto">
+
+
+                
+                    <p class="nomePrato">Prato de carne</p>
+                    <p class="descPrato">Arroz, feijão,carne, salada, ovo e batata frita</p>
+                    <p class="precPrato">15.50</p>
+               
+
+            </div>
+
+            <div class="prato3" onclick="selecionarPrato(this); continuar()">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_frango.jpg" alt="" class="foto">
+
+
+               
+                    <p class="nomePrato">Prato de frango</p>
+                    <p class="descPrato">Arroz, feijão, frango, farofa e salada. </p>
+                    <p class="precPrato">13.50</p>
+               
+
+            </div>
+        </div>
+
+        <p class="t3">Agora, sua bebida</p>
+
+        <div class="bebida">
+
+            <div class="bebidas1" onclick="selecionarBebida(this);  continuar()">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/suco.png" alt="" class="foto">
+
+
+              
+                    <p class="nomeBebida">Suco de Laranja</p>
+                    <p class="DescBebida">Suco adoçado</p>
+                    <p class="precBebida">10.00</p>
+             
+
+            </div>
+
+            
+            
+            <div class="bebidas2" onclick="selecionarBebida(this); continuar() ">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/coca.png" alt="" class="foto">
+
+
+               
+                    <p class="nomeBebida">Coca Cola</p>
+                    <p class="DescBebida">Coca Cola bem gelada</p>
+                    <p class="precBebida">8.00</p>
+              
+            </div>
+
+            <div class="bebidas3" onclick="selecionarBebida(this); continuar() ">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/fanta.png" alt="" class="foto">
+
+
+                
+                    <p class="nomeBebida">Fanta Laranja</p>
+                    <p class="DescBebida">Fanta sabor laranja</p>
+                    <p class="precBebida">6.00</p>
+               
+
+            </div>
+
+
+        </div>
+
+        <p class="t4">Por fim, sua sobremesa</p>
+
+        <div class="sobremesa">
+
+            <div class="sobremesa1"  onclick="selecionarSobremesa(this); continuar() ">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pudim.jpg" alt="" class="foto">
+
+
+            
+                    <p class="nomeSobremesa">Pudim</p>
+                    <p class="descSobremesa">Pudim cremoso</p>
+                    <p class="precSobremesa">12.50</p>
+        
+            </div>
+
+            
+            
+            <div class="sobremesa2" onclick="selecionarSobremesa(this); continuar() ">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/brownie.jpg" alt="" class="foto">
+
+
+            
+                    <p class="nomeSobremesa">Brownie</p>
+                    <p class="descSobremesa">Brownie bem chocolatudo</p>
+                    <p class="precSobremesa">7.00</p>
+            
+
+            </div>
+
+            <div class="sobremesa3"  onclick="selecionarSobremesa(this); continuar()">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/mouse.jpg" alt="" class="foto">
+
+
+                   <p class="nomeSobremesa">Mousse de Maracujá</p>
+                    <p class="descSobremesa">Mousse bem cremoso</p>
+                    <p class="precSobremesa">9.00</p>
+           
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="finalizar-pedido" >
+        <button class="botaoFinal" onclick="fecharPedido()" >Selecione os 3 itens para fechar o pedido</button>
+    </div>
+    
+    <div class="fimPedido escondido ">  
+        <div class="telaVerde">
+            <div class="mensagem-final">
+        
+                <P class="titulo textoFinal2">Confirme seu pedido</P>
+                <P class="pratoEsc textoFinal">PRATO</P>
+                <P class="bebidaEsc textoFinal">BEBIDA</P>
+                <P class="sobremesaEsc textoFinal">SOBREMESA</P>
+                <p class="total textoFinal2">TOTAL</p>
+                <div><a href="" class="tudoCerto">Tudo certo, pode pedir!</a></div>
+                <button class="cancela" onclick="cancelarPedido()">Cancelar</button>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
