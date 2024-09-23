@@ -57,8 +57,9 @@ body{
     
     display: flex;
     overflow-x: scroll;
-    height: 240px;
+    height: 250px;
     align-items: center;
+    
     
 
 
@@ -209,14 +210,16 @@ body{
 
 }
 
+
+
 .tudoCerto{
     width: 340px;
     height: 60px;
     border-radius: 100px;
-    background-color: #fff;
-    margin-left: 65px;
-    margin-top: 50px;
-    padding: 8px;
+    background-color: #fff; 
+    padding-left: 8px;
+    margin-left: 20px;
+
     text-decoration: none;
 
     font-size: 22px;
@@ -225,6 +228,8 @@ body{
     justify-content: center;
     text-align: center;
     font-weight: 700;
+
+    border: #fff;
 
 }
 

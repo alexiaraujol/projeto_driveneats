@@ -34,14 +34,14 @@
 
             
 
-            <div class="prato1" onclick="selecionarPrato(this); continuar() ">
+            <div class="prato1" onclick="selecionarPrato(this); continuar(); ">
                 <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_calabresa.png" alt="" class="foto">
 
 
                 
                     <p class="nomePrato">Prato de calabresa</p>
                     <p class="descPrato">Arroz, feijão,calabresa e batata frita</p>
-                    <p class="precPrato">14.90</p>
+                    <p class="precPrato">14.50</p>
                 
 
             </div>
@@ -162,7 +162,7 @@
     </div>
 
     <div class="finalizar-pedido" >
-        <button class="botaoFinal" onclick="fecharPedido()" >Selecione os 3 itens para fechar o pedido</button>
+        <button class="botaoFinal" onclick="fecharPedido(); calcPedido()" >Selecione os 3 itens para fechar o pedido</button>
     </div>
     
     <div class="fimPedido escondido ">  
@@ -174,7 +174,9 @@
                 <P class="bebidaEsc textoFinal">BEBIDA</P>
                 <P class="sobremesaEsc textoFinal">SOBREMESA</P>
                 <p class="total textoFinal2">TOTAL</p>
-                <div><a href="" class="tudoCerto">Tudo certo, pode pedir!</a></div>
+
+                <div><button class="tudoCerto" onclick="fimPedido();">Tudo certo, pode pedir!</button></div>
+
                 <button class="cancela" onclick="cancelarPedido()">Cancelar</button>
             </div>
 
